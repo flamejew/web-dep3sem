@@ -1,0 +1,32 @@
+body {
+    background-color: floralwhite;
+    font: 16px Verdana;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;       
+}
+
+.des{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Table{
+    text-align: right;
+    margin-left: 150px;
+    
+}
+
+td{
+    padding-left: 10px;
+    padding-bottom: 10px;    
+}
+
+.Button{
+    margin-left: 658px
+}
+
