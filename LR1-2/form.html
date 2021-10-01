@@ -1,0 +1,62 @@
+<html>
+    <head>
+    <meta chraset="utf-8">
+    <title>Форма</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <h1>Форма о кино</h1>
+        
+        <p class="des">Расскажитe о вашем опыте посещения кинотеатров в Москве</p>
+        <table cols=2 class="Table">
+                <tr>      
+                    <td>Имя</td>
+                    <td><input type="text" size="30" name="name" placeholder="Введите свое имя"></td>   
+                </tr>    
+        
+                <tr>      
+                    <td>E-mail</td>
+                    <td><input type="email" size="30" name="email" placeholder="Введите свой e-mail"></td>
+                     
+                </tr>   
+
+                <tr>      
+                    <td>Телефон</td>
+                    <td><input type="tel" size="30" name="tel" placeholder="Введите свой телефон"></td>
+                          
+                <tr>
+                    <td>Пол</td>
+            
+                <td><select>
+                <option value="woman">Женский</option>
+                <option value="man">Мужской</option>
+                </select></td>
+                </tr>
+                
+            <tr>
+                <td class="check">Вы чаще всего посещаете кинотеатр в...
+                </td>
+                
+                <td>
+                будние <input  type="checkbox" name="days" value="rou"><br>
+                выходные <input type="checkbox" name="days" value="wee">
+                </td>
+            </tr>
+            
+            <tr>
+            <td>Вы предпочитаете фильмы</td>
+            <td>отечественные<input type="radio" name="films" value="ru"><br>
+                зарубежные<input type="radio" name="films" value="en"></td>   
+            </tr>    
+            
+            <tr>
+                <td>Последний просмотренный Вами фильм?</td>
+                <td><textarea></textarea></td>  
+            </tr>
+    </table>
+        
+        <input class="Button" type="submit" value="Отправить">
+        
+       
+    </body>
+</html>    
