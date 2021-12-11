@@ -1,0 +1,21 @@
+button {
+	color: burlywood;
+    width: 75px;
+    height: 75px;
+
+
+    border-color: bisque;
+    background-color: blanchedalmond;
+	
+	font-family: sans-serif;
+    font-size: 28px;
+}
+
+p{
+	font-family: sans-serif;
+    font-size: 20px;
+}
+
+.line{
+    display: flex;
+}
